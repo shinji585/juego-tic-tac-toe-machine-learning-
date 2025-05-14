@@ -96,6 +96,7 @@ public class TicTacToeFX extends Application {
         configurarEscena(primaryStage, root);
     }
 
+    @SuppressWarnings("deprecation")
     private void cargarImagenes() {
         try {
             imagenHumano = new Image(new URL("https://i.pinimg.com/736x/0f/76/1d/0f761da46823184724083f9d614bd5d9.jpg").openStream());
